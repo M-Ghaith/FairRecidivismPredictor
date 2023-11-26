@@ -30,7 +30,7 @@ Investigates which resampling technique results in a balance of fairness across 
 
 **6. resampling_race_analysis.ipynb**
 Investigates which resampling technique results in a balance of fairness across metrics of statistical parity and equalized odds.
-This is a rerun of the previous experiment that excludes only the 'race' feature, rather than both 'race' and 'sex'.
+This is a rerun of the previous experiment that includes only the 'race' feature, rather than both 'race' and 'sex'.
 
 ### Scripts
 
