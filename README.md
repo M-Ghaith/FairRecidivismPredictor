@@ -17,19 +17,20 @@ Assesses model performance using metrics like AUC, accuracy, precision, recall, 
 Focuses on fairness analysis by examining the impact of removing the sensitive features 'race' and 'sex' on model predictions and fairness metrics.
 Applies class resampling techniques and in-processing techniques like data reweighting and exponentiated gradients to mitigate bias.
 Uses global and local explainability methods to interpret model predictions and investigates model safety and uncertainty estimation.
+This experiment optimizes fairness for both 'race' and 'sex'.
 
 **4. model_fairness_race_analysis.ipynb**
-Focuses on fairness analysis by examining the impact of removing only the 'race' feature on model predictions and fairness metrics.
+Focuses on fairness analysis by examining the impact of removing the sensitive 'race' and 'sex' features on model predictions and fairness metrics.
 Applies class resampling techniques and in-processing techniques like data reweighting and exponentiated gradients to mitigate bias.
 Uses global and local explainability methods to interpret model predictions and investigates model safety and uncertainty estimation.
-This is a rerun of the previous experiment that achieves better scores.
+This is a rerun of the previous experiment that optimizes fairness for 'race' only and achieves better scores.
 
 **5. resampling_analysis.ipynb**
 Investigates which resampling technique results in a balance of fairness across metrics of statistical parity and equalized odds.
 
 **6. resampling_race_analysis.ipynb**
 Investigates which resampling technique results in a balance of fairness across metrics of statistical parity and equalized odds.
-This is a rerun of the previous experiment that only excludes the 'race' feature, rather than both 'race' and 'sex'.
+This is a rerun of the previous experiment that excludes only the 'race' feature, rather than both 'race' and 'sex'.
 
 ### Scripts
 
