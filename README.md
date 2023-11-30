@@ -1,6 +1,40 @@
 # COMPAS Recidivism Prediction Fairness Analysis
 This repository contains a series of Jupyter notebooks and Python scripts aimed at assessing the fairness of machine learning models used to predict recidivism. The analysis is inspired by the study of the COMPAS tool, which showed disparities in prediction outcomes across different races and genders.
+## Running the Code
 
+- To successfully run the code in this repository, please follow these straightforward steps.
+- The code is written in Jupyter Notebook format, which makes it convenient and user-friendly.
+
+### Prerequisites
+- Ensure you have Jupyter Notebook installed on your system. If not, you can install it using Anaconda or directly through pip.
+- Python 3.x should be installed on your system. You can download it from python.org.
+
+### Steps to Run the Code
+
+1. Clone the Repository: Clone this repository to your local machine using Git commands or by downloading the zip file.  `git clone [repository URL]`
+
+2. Open Jupyter Notebook:
+
+- Navigate to the cloned repository's directory in your terminal or command prompt.
+- Launch Jupyter Notebook by typing jupyter notebook in the terminal or command prompt.
+
+3. Open the Notebook File:
+
+- Jupyter Notebook will open in your default web browser.
+- Navigate to the folder where the repository was cloned.
+- Open the .ipynb file you wish to run.
+
+4. Install Required Libraries:
+    - Before running the code, ensure that all necessary libraries and packages are installed.
+    - If a library is missing, you can install it using pip. For example, to install a library named library-name, use: `pip install library-name`
+
+5. Run the Code:
+    - You can run each cell individually by clicking on it and pressing Shift + Enter.
+    - To run all cells at once, you can use the "Run All" option in the "Cell" menu at the top.
+
+Notes:
+- No special handling is required to run the code, except ensuring that all necessary libraries and packages are imported in every cell where they are used.
+- If you encounter any issues or have questions, feel free to raise an issue in the repository.
 ## Repository Structure
 ### Notebooks
 
